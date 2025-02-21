@@ -1,0 +1,36 @@
+{
+    "collectionName": "noticias",
+    "info": {
+      "displayName": "noticia",
+      "singularName": "noticia",
+      "pluralName": "noticias",
+      "description": "Noticias con título, fecha, descripción, imagen y enlace"
+    },
+    "options": {
+      "draftAndPublish": true
+    },
+    "attributes": {
+      "title": {
+        "type": "string",
+        "required": true
+      },
+      "date": {
+        "type": "date",
+        "required": true
+      },
+      "desc": {
+        "type": "text",
+        "required": true
+      },
+      "image": {
+        "type": "media",
+        "multiple": false,
+        "required": false
+      },
+      "link": {
+        "type": "string",
+        "required": false
+      }
+    }
+  }
+  
